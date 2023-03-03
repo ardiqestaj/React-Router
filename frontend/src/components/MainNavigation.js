@@ -29,8 +29,17 @@ const MainNavigation = () => {
                 Events
               </NavLink>
             </li>
+            <NavLink
+              to="/newsletter"
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+            >
+              Newsletter
+            </NavLink>
           </ul>
         </nav>
+        <NewsletterSignup />
       </header>
     </>
   );
