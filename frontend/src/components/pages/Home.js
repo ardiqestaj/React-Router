@@ -1,8 +1,10 @@
+import PageContent from "../PageContent";
+
 const HomePage = () => {
   return (
-    <div>
-      <h1>Home Page</h1>
-    </div>
+    <PageContent title="Wellcome!">
+      <p>Browse all our amazing events!</p>
+    </PageContent>
   );
 };
 
