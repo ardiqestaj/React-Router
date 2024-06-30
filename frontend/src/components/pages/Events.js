@@ -17,7 +17,7 @@ function EventsPage() {
     </Suspense>
   );
 }
-
+// nerr
 export default EventsPage;
 
 async function loadEvents() {
